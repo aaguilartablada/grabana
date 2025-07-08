@@ -3,9 +3,9 @@ package decoder
 import (
 	"testing"
 
-	"github.com/K-Phoen/grabana/dashboard"
-	"github.com/K-Phoen/grabana/logs"
 	"github.com/K-Phoen/sdk"
+	"github.com/aaguilartablada/grabana/dashboard"
+	"github.com/aaguilartablada/grabana/logs"
 	"github.com/stretchr/testify/require"
 )
 

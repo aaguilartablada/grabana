@@ -3,12 +3,12 @@ package graph
 import (
 	"testing"
 
-	"github.com/K-Phoen/grabana/axis"
-	"github.com/K-Phoen/grabana/errors"
-	"github.com/K-Phoen/grabana/graph/series"
-	"github.com/K-Phoen/grabana/links"
-	"github.com/K-Phoen/grabana/target/stackdriver"
 	"github.com/K-Phoen/sdk"
+	"github.com/aaguilartablada/grabana/axis"
+	"github.com/aaguilartablada/grabana/errors"
+	"github.com/aaguilartablada/grabana/graph/series"
+	"github.com/aaguilartablada/grabana/links"
+	"github.com/aaguilartablada/grabana/target/stackdriver"
 	"github.com/stretchr/testify/require"
 )
 

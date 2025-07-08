@@ -3,10 +3,10 @@ package row
 import (
 	"testing"
 
-	"github.com/K-Phoen/grabana/alert"
-	"github.com/K-Phoen/grabana/graph"
-	"github.com/K-Phoen/grabana/timeseries"
 	"github.com/K-Phoen/sdk"
+	"github.com/aaguilartablada/grabana/alert"
+	"github.com/aaguilartablada/grabana/graph"
+	"github.com/aaguilartablada/grabana/timeseries"
 	"github.com/stretchr/testify/require"
 )
 

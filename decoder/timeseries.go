@@ -3,10 +3,10 @@ package decoder
 import (
 	"fmt"
 
-	"github.com/K-Phoen/grabana/row"
-	"github.com/K-Phoen/grabana/timeseries"
-	"github.com/K-Phoen/grabana/timeseries/axis"
-	"github.com/K-Phoen/grabana/timeseries/fields"
+	"github.com/aaguilartablada/grabana/row"
+	"github.com/aaguilartablada/grabana/timeseries"
+	"github.com/aaguilartablada/grabana/timeseries/axis"
+	"github.com/aaguilartablada/grabana/timeseries/fields"
 )
 
 var ErrInvalidGradientMode = fmt.Errorf("invalid gradient mode")

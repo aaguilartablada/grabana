@@ -3,8 +3,8 @@ package text
 import (
 	"testing"
 
-	"github.com/K-Phoen/grabana/errors"
-	"github.com/K-Phoen/grabana/links"
+	"github.com/aaguilartablada/grabana/errors"
+	"github.com/aaguilartablada/grabana/links"
 	"github.com/stretchr/testify/require"
 )
 

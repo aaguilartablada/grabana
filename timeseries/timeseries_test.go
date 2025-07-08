@@ -4,14 +4,14 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/K-Phoen/grabana/errors"
-	"github.com/K-Phoen/grabana/links"
-	"github.com/K-Phoen/grabana/scheme"
-	"github.com/K-Phoen/grabana/target/stackdriver"
-	"github.com/K-Phoen/grabana/timeseries/axis"
-	"github.com/K-Phoen/grabana/timeseries/fields"
-	"github.com/K-Phoen/grabana/timeseries/threshold"
 	"github.com/K-Phoen/sdk"
+	"github.com/aaguilartablada/grabana/errors"
+	"github.com/aaguilartablada/grabana/links"
+	"github.com/aaguilartablada/grabana/scheme"
+	"github.com/aaguilartablada/grabana/target/stackdriver"
+	"github.com/aaguilartablada/grabana/timeseries/axis"
+	"github.com/aaguilartablada/grabana/timeseries/fields"
+	"github.com/aaguilartablada/grabana/timeseries/threshold"
 	"github.com/stretchr/testify/require"
 )
 

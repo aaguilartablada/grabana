@@ -4,13 +4,13 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/K-Phoen/grabana/errors"
-	"github.com/K-Phoen/grabana/links"
-	"github.com/K-Phoen/grabana/target/graphite"
-	"github.com/K-Phoen/grabana/target/influxdb"
-	"github.com/K-Phoen/grabana/target/prometheus"
-	"github.com/K-Phoen/grabana/target/stackdriver"
 	"github.com/K-Phoen/sdk"
+	"github.com/aaguilartablada/grabana/errors"
+	"github.com/aaguilartablada/grabana/links"
+	"github.com/aaguilartablada/grabana/target/graphite"
+	"github.com/aaguilartablada/grabana/target/influxdb"
+	"github.com/aaguilartablada/grabana/target/prometheus"
+	"github.com/aaguilartablada/grabana/target/stackdriver"
 )
 
 // Option represents an option that can be used to configure a single stat panel.
