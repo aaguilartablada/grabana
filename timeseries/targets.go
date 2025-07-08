@@ -24,6 +24,7 @@ func WithPrometheusTarget(query string, options ...prometheus.Option) Option {
 			LegendFormat:   target.LegendFormat,
 			Instant:        target.Instant,
 			Format:         target.Format,
+			Exemplar:       target.Exemplar,
 		})
 
 		return nil
