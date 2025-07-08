@@ -32,6 +32,7 @@ type PrometheusTarget struct {
 	Format         string `yaml:",omitempty"`
 	Instant        bool   `yaml:",omitempty"`
 	IntervalFactor *int   `yaml:"interval_factor,omitempty"`
+	Exemplar       bool   `yaml:",omitempty"`
 }
 
 func (t PrometheusTarget) toOptions() []prometheus.Option {
@@ -58,6 +59,9 @@ func (t PrometheusTarget) toOptions() []prometheus.Option {
 		case "time_series":
 			opts = append(opts, prometheus.Format(prometheus.FormatTimeSeries))
 		}
+	}
+	if t.Exemplar {
+		opts = append(opts, prometheus.Exemplar())
 	}
 
 	return opts

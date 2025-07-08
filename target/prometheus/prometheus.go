@@ -26,6 +26,7 @@ type Prometheus struct {
 	LegendFormat   string
 	Instant        bool
 	Format         string
+	Exemplar       bool
 }
 
 // New creates a new prometheus query.
@@ -82,5 +83,12 @@ func Format(format FormatMode) Option {
 func IntervalFactor(factor int) Option {
 	return func(prometheus *Prometheus) {
 		prometheus.IntervalFactor = factor
+	}
+}
+
+// Enable exemplars for the query
+func Exemplar() Option {
+	return func(prometheus *Prometheus) {
+		prometheus.Exemplar = true
 	}
 }

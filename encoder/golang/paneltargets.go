@@ -84,6 +84,12 @@ func (encoder *Encoder) encodePrometheusTarget(target sdk.Target, grabanaPackage
 			qual("target/prometheus", "IntervalFactor").Call(lit(target.IntervalFactor)),
 		)
 	}
+	if target.Exemplar {
+		settings = append(
+			settings,
+			qual("target/prometheus", "Exemplar").Call(),
+		)
+	}
 
 	formatConstName := "FormatTimeSeries"
 	switch target.Format {
