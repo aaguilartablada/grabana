@@ -3,8 +3,8 @@ package series
 import (
 	"fmt"
 
-	"github.com/K-Phoen/sdk"
 	"github.com/aaguilartablada/grabana/errors"
+	"github.com/aaguilartablada/grafana-sdk"
 )
 
 // OverrideOption represents an option that can be used alter a graph panel series.

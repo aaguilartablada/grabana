@@ -7,7 +7,6 @@ import (
 	"encoding/hex"
 	"encoding/json"
 
-	"github.com/K-Phoen/sdk"
 	"github.com/aaguilartablada/grabana/alert"
 	"github.com/aaguilartablada/grabana/row"
 	"github.com/aaguilartablada/grabana/variable/constant"
@@ -16,6 +15,7 @@ import (
 	"github.com/aaguilartablada/grabana/variable/interval"
 	"github.com/aaguilartablada/grabana/variable/query"
 	"github.com/aaguilartablada/grabana/variable/text"
+	"github.com/aaguilartablada/grafana-sdk"
 )
 
 // TagAnnotation describes an annotation represented as a Tag.

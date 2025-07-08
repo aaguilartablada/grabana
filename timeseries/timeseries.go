@@ -3,7 +3,6 @@ package timeseries
 import (
 	"fmt"
 
-	"github.com/K-Phoen/sdk"
 	"github.com/aaguilartablada/grabana/alert"
 	"github.com/aaguilartablada/grabana/errors"
 	"github.com/aaguilartablada/grabana/links"
@@ -11,6 +10,7 @@ import (
 	"github.com/aaguilartablada/grabana/timeseries/axis"
 	"github.com/aaguilartablada/grabana/timeseries/fields"
 	"github.com/aaguilartablada/grabana/timeseries/threshold"
+	"github.com/aaguilartablada/grafana-sdk"
 )
 
 // Option represents an option that can be used to configure a graph panel.

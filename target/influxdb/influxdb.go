@@ -1,6 +1,6 @@
 package influxdb
 
-import "github.com/K-Phoen/sdk"
+import "github.com/aaguilartablada/grafana-sdk"
 
 // Option represents an option that can be used to configure a influxdb query.
 type Option func(target *InfluxDB)

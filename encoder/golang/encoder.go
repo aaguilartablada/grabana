@@ -4,12 +4,12 @@ import (
 	"bytes"
 
 	"github.com/K-Phoen/jennifer/jen"
-	"github.com/K-Phoen/sdk"
+	"github.com/aaguilartablada/grafana-sdk"
 	"go.uber.org/zap"
 )
 
 const packageImportPath = "github.com/aaguilartablada/grabana"
-const sdkImportPath = "github.com/K-Phoen/sdk"
+const sdkImportPath = "github.com/aaguilartablada/grafana-sdk"
 
 type Encoder struct {
 	logger *zap.Logger

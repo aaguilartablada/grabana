@@ -1,12 +1,12 @@
 package timeseries
 
 import (
-	"github.com/K-Phoen/sdk"
 	"github.com/aaguilartablada/grabana/target/graphite"
 	"github.com/aaguilartablada/grabana/target/influxdb"
 	"github.com/aaguilartablada/grabana/target/loki"
 	"github.com/aaguilartablada/grabana/target/prometheus"
 	"github.com/aaguilartablada/grabana/target/stackdriver"
+	"github.com/aaguilartablada/grafana-sdk"
 )
 
 // WithPrometheusTarget adds a prometheus query to the graph.

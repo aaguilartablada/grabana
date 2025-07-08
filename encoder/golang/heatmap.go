@@ -4,7 +4,7 @@ import (
 	"strconv"
 
 	"github.com/K-Phoen/jennifer/jen"
-	"github.com/K-Phoen/sdk"
+	sdk "github.com/aaguilartablada/grafana-sdk"
 	"go.uber.org/zap"
 )
 

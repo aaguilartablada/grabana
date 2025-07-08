@@ -3,12 +3,12 @@ package table
 import (
 	"fmt"
 
-	"github.com/K-Phoen/sdk"
 	"github.com/aaguilartablada/grabana/errors"
 	"github.com/aaguilartablada/grabana/links"
 	"github.com/aaguilartablada/grabana/target/graphite"
 	"github.com/aaguilartablada/grabana/target/influxdb"
 	"github.com/aaguilartablada/grabana/target/prometheus"
+	"github.com/aaguilartablada/grafana-sdk"
 )
 
 // Option represents an option that can be used to configure a table panel.

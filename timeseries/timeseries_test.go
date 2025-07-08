@@ -4,7 +4,6 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/K-Phoen/sdk"
 	"github.com/aaguilartablada/grabana/errors"
 	"github.com/aaguilartablada/grabana/links"
 	"github.com/aaguilartablada/grabana/scheme"
@@ -12,6 +11,7 @@ import (
 	"github.com/aaguilartablada/grabana/timeseries/axis"
 	"github.com/aaguilartablada/grabana/timeseries/fields"
 	"github.com/aaguilartablada/grabana/timeseries/threshold"
+	"github.com/aaguilartablada/grafana-sdk"
 	"github.com/stretchr/testify/require"
 )
 

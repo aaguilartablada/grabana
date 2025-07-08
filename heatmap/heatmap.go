@@ -3,7 +3,6 @@ package heatmap
 import (
 	"fmt"
 
-	"github.com/K-Phoen/sdk"
 	"github.com/aaguilartablada/grabana/errors"
 	"github.com/aaguilartablada/grabana/heatmap/axis"
 	"github.com/aaguilartablada/grabana/links"
@@ -11,6 +10,7 @@ import (
 	"github.com/aaguilartablada/grabana/target/influxdb"
 	"github.com/aaguilartablada/grabana/target/prometheus"
 	"github.com/aaguilartablada/grabana/target/stackdriver"
+	"github.com/aaguilartablada/grafana-sdk"
 )
 
 // DataFormatMode represents the data format modes.

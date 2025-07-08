@@ -6,8 +6,8 @@ import (
 	"io"
 	"os"
 
-	"github.com/K-Phoen/sdk"
 	"github.com/aaguilartablada/grabana/encoder"
+	"github.com/aaguilartablada/grafana-sdk"
 	"github.com/spf13/cobra"
 	"go.uber.org/zap"
 )

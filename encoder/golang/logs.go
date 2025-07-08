@@ -2,8 +2,8 @@ package golang
 
 import (
 	"github.com/K-Phoen/jennifer/jen"
-	"github.com/K-Phoen/sdk"
 	"github.com/aaguilartablada/grabana/logs"
+	"github.com/aaguilartablada/grafana-sdk"
 	"go.uber.org/zap"
 )
 

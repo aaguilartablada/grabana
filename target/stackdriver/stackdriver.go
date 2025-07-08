@@ -1,6 +1,6 @@
 package stackdriver
 
-import "github.com/K-Phoen/sdk"
+import "github.com/aaguilartablada/grafana-sdk"
 
 // Option represents an option that can be used to configure a stackdriver query.
 type Option func(target *Stackdriver)

@@ -1,7 +1,7 @@
 package datasource
 
 import (
-	"github.com/K-Phoen/sdk"
+	"github.com/aaguilartablada/grafana-sdk"
 )
 
 // Option represents an option that can be used to configure a query.

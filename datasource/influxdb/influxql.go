@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/K-Phoen/sdk"
+	"github.com/aaguilartablada/grafana-sdk"
 )
 
 type InfluxQL struct {

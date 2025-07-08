@@ -1,8 +1,8 @@
 package fields
 
 import (
-	"github.com/K-Phoen/sdk"
 	"github.com/aaguilartablada/grabana/timeseries/axis"
+	"github.com/aaguilartablada/grafana-sdk"
 )
 
 // StackMode configures mode of series stacking.

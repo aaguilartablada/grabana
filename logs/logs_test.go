@@ -3,9 +3,9 @@ package logs
 import (
 	"testing"
 
-	"github.com/K-Phoen/sdk"
 	"github.com/aaguilartablada/grabana/errors"
 	"github.com/aaguilartablada/grabana/links"
+	"github.com/aaguilartablada/grafana-sdk"
 	"github.com/stretchr/testify/require"
 )
 

@@ -8,9 +8,9 @@ import (
 	"net/http"
 	"net/url"
 
-	"github.com/K-Phoen/sdk"
 	"github.com/aaguilartablada/grabana/alert"
 	"github.com/aaguilartablada/grabana/alertmanager"
+	"github.com/aaguilartablada/grafana-sdk"
 )
 
 // ErrAlertNotFound is returned when the requested alert can not be found.

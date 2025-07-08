@@ -9,12 +9,12 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/K-Phoen/sdk"
 	"github.com/aaguilartablada/grabana/alert"
 	"github.com/aaguilartablada/grabana/dashboard"
 	"github.com/aaguilartablada/grabana/row"
 	"github.com/aaguilartablada/grabana/text"
 	"github.com/aaguilartablada/grabana/timeseries"
+	"github.com/aaguilartablada/grafana-sdk"
 	"github.com/stretchr/testify/require"
 )
 
